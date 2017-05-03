@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dj Minu</title>
+
+	<link rel="shortcut icon" href="favicon-dj-esl.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="style.css">
+	<link 
+		rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script 
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+	</script>
+	<script 
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">			
+	</script>
+
+	<script src ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+
+</head>
+
+
+<body class="backgrounde">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="pag2.html">Dj Minu</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Acasa <span class="sr-only">(current)</span></a></li>
+        <li><a href="pag3.html">Mixurile mele</a></li>
+      </ul>     
+    </div>   
+  </div>  
+</nav>
+
+
+
+
+
+<script type="text/javascript">
+
+    function vidplay() {
+       var video = document.getElementById("Video1");
+       var button = document.getElementById("play");
+       if (video.paused) {
+          video.play();
+          button.textContent = "Pauza";
+       } else {
+          video.pause();
+          button.textContent = "Play";
+       }
+    }
+
+    function skip(value) {
+        var video = document.getElementById("Video1");
+        video.currentTime += value;
+    }      
+</script> 
+
+
+<div class="video2">
+
+        <video id="Video1" width="80%" height="20%" >
+             <source src="demo.mp4" type="video/mp4"> 
+        </video>
+
+        <div id="buttonbar"> 
+            <button id="rew" onclick="skip(-10)">Inpoi</button>
+            <button id="play" onclick="vidplay()">Play</button>
+            <button id="fastFwd" onclick="skip(10)">Inainte</button>
+        </div> 
+
+</div>
+
+
+	
+
+
+
+</body>
+</html>

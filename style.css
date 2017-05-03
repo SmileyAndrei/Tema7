@@ -1,0 +1,67 @@
+
+
+
+.backgrounde{
+  background-image:url("http://www.pixelstalk.net/wp-content/uploads/2016/11/Free-Images-HD-Flat-Design.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+}
+
+ .poster{
+ 	margin-top: 80px;
+ 	margin-left: 10%;
+ }
+
+.layer1{
+	color:#bdc3c7;
+	margin-top: 70px;
+	height: 120px;
+	background-color: #34495e;
+	font-family: sans-serif;
+	font-size: 24px;
+	padding-left: 30px;
+	padding-top: 5px;
+
+}
+
+
+.profil{
+	margin-left: 10px;
+	float: left;
+}
+
+ .biografie{
+ 	margin-top: 70px;
+ 	color: #ecf0f1;
+ 	font-family: sans-serif;
+ 	text-align: justify;
+ 	font-size: 18px;
+ }
+
+
+ .nume{
+ 	text-align: right;
+ 	font-size: 300%;
+ 	margin-right: 20px;
+ 	text-shadow: 1px 1px 2px black, 0 0 25px, 0 0 5px darkblue;
+ }
+ .linie{
+ 	margin-top: 50px;
+ 	margin-left:3%;
+ }
+
+ .link{
+ 	margin-top: 50px;
+ 	float: right;
+ 	margin-right: 10px;
+ }
+
+ .video2{
+ 	margin-left: 20%;
+
+ 	margin-top: 50px;
+ }
